@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <header></header>
+  <main>
+    <section>
+      <form id="regForm">
+                   <h3>User Registration Form</h3>
+
+                   <label for="first">First Name</label>
+                   
+                   <input type="text" id="first" name="uid" placeholder="First Name" required="Enter your first name">
+                   <label for="last">Last Name</label>
+                   
+                   <input type="text" id="last" name="uid" placeholder="Last Name" required="Enter your last name">
+        
+        <label for="user">Phone Number</label>
+                   
+                   <input type="text" id="phone" name="phone" placeholder="Phone Number" required="Enter your phone number">
+
+                   <label for="user">Email</label>
+                   
+                   <input type="email" id="email" name="email" placeholder="Email" required="Enter your email">
+        <p>Select your gender below</p>
+                   <label for="male">Male</label>                   
+                   <input type="radio" id="male" name="gender" value="male">
+          <label for="female">Female</label>                   
+                   <input type="radio" id="female" name="gender" value="female">
+        <label for="others">Others</label>                   
+                   <input type="radio" id="others" name="gender" value="others">
+        <label for="dob">Select date of birth</label>
+        <input type="date" id="dob">
+        <label for="color">Pick a colour</label>
+        <input type="color" id="color">
+                   
+                   <br>
+                   <button type="submit" class="btn"> Register Now</button>
+      
+        </form>
+      <p>Have an account? <a href="login.html">Login</a> here</p>
+    </section>
+  </main>
+  <footer></footer>
+  
+  <script src="script.js"></script>
+
+ <!--
+  This script places a badge on your repl's full-browser view back to your repl's cover
+  page. Try various colors for the theme: dark, light, red, orange, yellow, lime, green,
+  teal, blue, blurple, magenta, pink!
+  -->
+  <script src="https://replit.com/public/js/replit-badge.js" theme="blue" defer></script> 
+</body>
+
+</html>
